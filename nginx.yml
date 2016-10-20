@@ -1,0 +1,4 @@
+---
+- name: Nginx -- Install using apt.
+  apt: pkg=nginx state=latest
+  notify: restart nginx
