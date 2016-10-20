@@ -2,5 +2,7 @@
 - hosts: localhost
 
   tasks:
-
     - include: nginx.yml
+
+  handlers:
+    - include: handlers.yml
